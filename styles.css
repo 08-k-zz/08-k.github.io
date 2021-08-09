@@ -1,0 +1,35 @@
+body {
+  margin: 32px auto;
+  max-width: 540px;
+  line-height: 1em;
+  font-size: 16px;
+  padding: 0 8px;
+}
+
+a {
+  color: #9ae060;
+  text-decoration:none;
+}
+
+a:hover {
+  color:#9ae060;
+}
+
+h1 {
+  line-height: .8em;
+}
+
+.koji {
+  color: #9ae060;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+      background-color: #28282b;
+      color: rgba(255, 255, 255, 0.856);
+  }
+  
+  a {
+      color: #9ae060;
+  }
+}
