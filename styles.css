@@ -1,9 +1,10 @@
 body {
-  margin: 32px auto;
+  margin: 32px;
   max-width: 540px;
-  line-height: 1em;
+  line-height: 1.2em;
   font-size: 16px;
   padding: 0 8px;
+  font-family: Segoe_UI, serif;
 }
 
 a {
@@ -16,7 +17,7 @@ a:hover {
 }
 
 h1 {
-  line-height: .8em;
+  line-height: 1em;
 }
 
 .koji {
@@ -26,10 +27,15 @@ h1 {
 @media (prefers-color-scheme: dark) {
   body {
       background-color: #28282b;
-      color: rgba(255, 255, 255, 0.856);
+      color: #e3ece3;
   }
   
   a {
       color: #9ae060;
   }
+}
+
+@font-face {
+  font-family: Segoe_UI;
+  src: url("fonts/Segoe_UI.ttf");
 }
